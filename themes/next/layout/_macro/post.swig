@@ -47,8 +47,23 @@
         {% endif %}
 
         <div class="post-meta">
+          <span class="post-translator">
+            <a href="{{ url_for(post.path) }}">
+              <span>{{ post.translator }}</span>
+            </a>
+          </span>
+          
           <span class="post-time">
-            {{ __('post.posted') }}
+            &nbsp; | &nbsp; {{ __('post.from') }}
+            <span class="post-translate-url">
+              <a href="{{ url_for(post.transurl || post.path) }}">
+                <span>{{ post.transource }}</span>
+              </a>
+            </span>
+          </span>
+          
+          <span class="post-time">
+            &nbsp; | &nbsp; {{ __('post.posted') }}
             <time itemprop="dateCreated" datetime="{{ moment(post.date).format() }}" content="{{ date(post.date, config.date_format) }}">
               {{ date(post.date, config.date_format) }}
             </time>

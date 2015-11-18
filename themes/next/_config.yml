@@ -6,7 +6,7 @@
 favicon: uniDog/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Hexo, NexT, UVa, Luckycat, 翻譯, algorithm, 演算法"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-since: 2013
+since: 2014
 
 
 
@@ -27,12 +27,10 @@ since: 2013
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /uniDog
-  #categories: /categories
+  categories: categories
   #about: /about
   archives: archives
   tags: tags
-  #commonweal: /404.html
-
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -78,8 +76,8 @@ sidebar: post
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/pcshic
   #Others:
 
 # Social Icons
@@ -95,18 +93,11 @@ social_icons:
 #avatar:
 
 
-# Social links
-# social:
-  #GitHub:
-  #Others:
-
-
 # TOC in the Sidebar
 toc:
   enable: true
-
   # Automatically add list number to toc.
-  number: true
+  number: false
 
 
 # Creative Commons 4.0 International License.

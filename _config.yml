@@ -6,7 +6,7 @@
 title: uniDog 的 ACM 園地
 subtitle:
 description:
-author: uniDog @ pcshic
+author: uniDog 團隊 @ pcshic
 language: zh-TW
 timezone:
 
@@ -29,7 +29,7 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: prob
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0

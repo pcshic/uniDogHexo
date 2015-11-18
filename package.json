@@ -8,6 +8,7 @@
   "dependencies": {
     "hexo": "^3.1.0",
     "hexo-deployer-git": "0.0.4",
+    "hexo-filter-unidog": "file:///C:\\cygwin64\\home\\user\\Github\\_hexo\\hexo-filter-unidog\\hexo-filter-unidog-0.1.0.tgz",
     "hexo-generator-archive": "^0.1.2",
     "hexo-generator-category": "^0.1.2",
     "hexo-generator-index": "^0.1.2",

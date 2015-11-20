@@ -14,7 +14,7 @@
       </h2>
     </div>
 
-    {% for post in page.posts %}
+    {% for post in page.posts.sort('probid') %}
       {{ post_template.render(post) }}
     {% endfor %}
   </section>

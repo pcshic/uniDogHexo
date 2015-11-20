@@ -53,13 +53,11 @@
             </a>
           </span>
           
-          <span class="post-time">
+          <span class="post-translate-url">
             &nbsp; | &nbsp; {{ __('post.from') }}
-            <span class="post-translate-url">
-              <a href="{{ url_for(post.transurl || post.path) }}">
-                <span>{{ post.transource }}</span>
-              </a>
-            </span>
+            <a href="{{ url_for(post.transurl || post.path) }}" target="_blank">
+              <span>{{ post.transource }}</span>
+            </a>
           </span>
           
           <span class="post-time">
@@ -85,6 +83,15 @@
                 {% endif %}
 
               {% endfor %}
+            </span>
+          {% endif %}
+
+          {% if post.uvaid %}
+            <span class="post-original" >
+              &nbsp; | &nbsp;
+              <a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem={{ post.uvaid }}" target="_blank">
+                <span>UVa</span>
+              </a>
             </span>
           {% endif %}
 

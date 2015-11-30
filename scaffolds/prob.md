@@ -1,10 +1,9 @@
 title: {{ title }}
 date: {{ date }}
-probsettler: {{ probsettler }}
-probdate: {{ probdate }}
-proburl: {{ proburl }}
+probid: {{ probid }}
+uvaid: {{ uvaid }}
 translator: {{ translator }}
-transource: {{ transsource }}
+transource: {{ transource }}
 transurl: {{ transurl }}
 categories:
 tags:
